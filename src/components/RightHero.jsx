@@ -3,7 +3,7 @@ import ChangingText from "./ChangingText";
 
 function RightHero() {
   return (
-    <div>
+    <div className="flex-1">
       <ChangingText />
     </div>
   );

@@ -30,10 +30,13 @@ function ChangingText() {
       if (currentIndex == word.length) setIsDeleting(true);
 
       if (isDeleting && currentIndex >= 0) {
-        innerTimeOut = setTimeout(() => {
-          setCurrentText((prev) => prev.slice(0, -1));
-          setCurrentIndex((prev) => prev - 1);
-        }, 1000);
+        innerTimeOut = setTimeout(
+          () => {
+            setCurrentText((prev) => prev.slice(0, -1));
+            setCurrentIndex((prev) => prev - 1);
+          },
+          currentIndex == 0 || currentIndex == word.length ? 1000 : 0
+        );
       }
 
       if (isDeleting && currentIndex < 0) {
