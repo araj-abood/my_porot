@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/araj-abood/my_porot",
+  "homepage": "araj-abood.github.io/my_porot",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
