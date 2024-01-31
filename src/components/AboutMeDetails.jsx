@@ -1,12 +1,28 @@
 import React from "react";
 import AboutmeYear from "./about-me/AboutmeYear";
+import Partition from "./about-me/Partition";
+
+const years = [
+  { year: 2024, done: ["Joined MIT program", "Became a senior"] },
+  { year: 2023, done: ["Finally got my gpa above 3", "Learned Data sciece"] },
+  { year: 2021, done: ["Finished Highschool", "Enrolled to University"] },
+  { year: 2010, done: ["Got my drivers license"] },
+];
 
 function AboutMeDetails() {
   return (
-    <div className="overflow-x-scroll min-h-[200px] px-5 overflow-y-auto red-scroll">
-      <div className="h-1">
-        <AboutmeYear />
-      </div>
+    <div className="overflow-x-scroll flex  mt-10  px-5 overflow-y-auto red-scroll">
+      {years.map((y, index) => {
+        if (index !== years.length - 1) {
+          return (
+            <>
+              <AboutmeYear details={y} />
+              <Partition />
+            </>
+          );
+        }
+        return <AboutmeYear details={y} />;
+      })}
     </div>
   );
 }
