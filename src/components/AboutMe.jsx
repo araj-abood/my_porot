@@ -7,7 +7,7 @@ function AboutMe() {
     <div className="w-[80%]  mx-auto px-3 py-2 rounded-md border-white/40 border-[1px] bg-red-900/10">
       <h2 className="text-center text-3xl  mb-2">About me</h2>
       <div className="px-3">
-        <h1 className="mb-5 text-center text-main-300 font-bold  text-lg">
+        <h1 className="mb-5 text-center text-gray-200 font-bold  text-lg">
           I am a computer science student, i study in the American university of
           madaba
         </h1>
