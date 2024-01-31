@@ -7,5 +7,5 @@
 }
 
 .red-scroll::-webkit-scrollbar-thumb {
-  @apply bg-red-700/90 rounded-md;
+  @apply bg-main-500/90 rounded-md;
 }
