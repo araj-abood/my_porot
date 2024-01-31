@@ -1,5 +1,4 @@
 import React from "react";
-import LinkItem from "./LinkItem";
 import Links from "./Links";
 import Logo from "./Logo";
 

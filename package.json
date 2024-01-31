@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "araj-abood.github.io/my_porot",
+  "homepage": "https://araj-abood.github.io/my_porot",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,7 +14,8 @@
   "dependencies": {
     "framer-motion": "^10.18.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-wavify": "^1.10.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

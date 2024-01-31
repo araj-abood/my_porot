@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const skills = [
   "React Developer",
-  "Python programmer",
+  "Python Programmer",
   "Data scientist",
-  "Software engineer",
+  "Software Engineer",
 ];
 
 const delay = 1000;
@@ -54,8 +54,8 @@ function ChangingText() {
   }, [currentIndex, currentWord, currentText, isDeleting]);
 
   return (
-    <h1 className="text-5xl  ">
-      I'am a{" "}
+    <h1 className="text-5xl w-[900px] mx-auto">
+      I am a{" "}
       <span className="bg-gradient-to-r from-main-500  to-main-300 text-transparent inline-block  bg-clip-text ">
         {currentText}
       </span>

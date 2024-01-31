@@ -1,7 +1,8 @@
 import React, { forwardRef, useRef } from "react";
+import { ColorContext } from "../../store/colorCtx";
 
 const LinkItem = forwardRef(function LinkItem(
-  { to, text, handleSelect, colortw },
+  { to, text, handleSelect, colortw, onClick },
   ref
 ) {
   const linkRef = useRef(null);
@@ -14,6 +15,7 @@ const LinkItem = forwardRef(function LinkItem(
         onMouseOver={() => {
           handleSelect(linkRef.current);
         }}
+        onClick={onClick}
         className="text-lg font-semibold cursor-pointer hover:brightness-150 transition-all duration-100 relative"
       >
         {text}

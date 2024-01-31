@@ -1,0 +1,11 @@
+.red-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.red-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.red-scroll::-webkit-scrollbar-thumb {
+  @apply bg-red-700/90 rounded-md;
+}
