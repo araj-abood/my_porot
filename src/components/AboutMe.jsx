@@ -8,8 +8,9 @@ function AboutMe() {
       <h2 className="text-center text-3xl  mb-2">About me</h2>
       <div className="px-3">
         <h1 className="mb-5 text-center text-gray-200 font-bold  text-lg">
-          I am a computer science student, i study in the American university of
-          madaba
+          I am a Software Engineer / Mobile Developer @ <b>ZenHR</b>
+          <br /> I am a graduate computer science student from the American
+          University of Madaba with a GPA of <b>4.2</b>
         </h1>
         <h2 className="text-3xl text-center text-main-300  font-bold">
           My hobbies

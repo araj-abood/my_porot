@@ -1,0 +1,28 @@
+export const MY_SKILLS = {
+  master: [
+    "React",
+    "React native",
+    "Git",
+    "Learning",
+    "Typescript",
+    "Javascript",
+    "Html",
+    "Css",
+    "Tailwind",
+  ],
+  almostThere: ["Python", "ExpressJS", "MondeJS"],
+  halfWay: [
+    "Ruby",
+    "Ruby on rails",
+    "Java",
+    "c++",
+    "SQL",
+    "MYSQL",
+    "Machine learning",
+    "Media pipe",
+    "OpenCV",
+    "PyTorch",
+  ],
+  begineer: ["Game development", "Unity", "C#"],
+  basic: ["Docker", "Kubernetes"],
+};
