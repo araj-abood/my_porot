@@ -3,17 +3,30 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Section from "./layout/Section";
 import "./App.css";
+import Wave from "react-wavify";
+import Skills from "./components/skills/components";
 
 function App() {
   return (
-    <>
-      {" "}
+    <main>
       <Section>
         <Navbar />
         <Hero />
         <AboutMe />
+        <Skills />
       </Section>
-    </>
+      <Wave
+        fill="rgba(12, 7, 171, 0.8)"
+        paused={false}
+        style={{ display: "flex" }}
+        options={{
+          height: 10,
+          amplitude: 10,
+          speed: 1,
+          points: 3,
+        }}
+      />
+    </main>
   );
 }
 
