@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 
 const skills = [
   "React Developer",
+  "Mobile Developer",
+  "React Native Developer",
+  "Full Stack Developer",
   "Python Programmer",
   "Data scientist",
   "Software Engineer",

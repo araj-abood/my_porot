@@ -15,10 +15,11 @@ function AboutMe() {
           My hobbies
         </h2>
 
-        <ol className="grid grid-cols-3 mt-5 ">
+        <ol className="grid grid-cols-3 mt-5 gap-3">
           <HobbiesItem text={"League of legends"} />
           <HobbiesItem text={"Programming"} />
           <HobbiesItem text={"Anime"} />
+          <HobbiesItem text={"Tech Stuff "} />
         </ol>
       </div>
       <h2 className="text-3xl text-center  font-bold mt-7">Chronicles</h2>
