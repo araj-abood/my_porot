@@ -60,7 +60,7 @@ function SkillsRating({ numberOfStars, arrayOfSkills }: SkillsRatingProps) {
           <h3 className="text-sm font-bold mb-2">Skills:</h3>
           <ul className="list-disc list-inside text-sm text-gray-700">
             {arrayOfSkills.map((skill, index) => (
-              <li key={index}>{skill}</li>
+              <li key={skill}>{skill}</li>
             ))}
           </ul>
         </div>

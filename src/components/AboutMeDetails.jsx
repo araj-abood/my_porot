@@ -27,15 +27,13 @@ function AboutMeDetails() {
   return (
     <div className="overflow-x-scroll flex  mt-10  px-5 overflow-y-auto red-scroll">
       {years.map((y, index) => {
-        if (index !== years.length - 1) {
-          return (
-            <>
-              <AboutmeYear details={y} />
-              <Partition />
-            </>
-          );
-        }
-        return <AboutmeYear details={y} />;
+        return (
+          <AboutmeYear
+            key={y.year}
+            details={y}
+            addPartition={index < years.length - 1}
+          />
+        );
       })}
     </div>
   );

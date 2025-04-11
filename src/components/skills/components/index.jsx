@@ -3,8 +3,8 @@ import SkillsRating from "../../skills-rating";
 
 function Skills() {
   return (
-    <section className="mt-5">
-      <h1 className="text-center text-2xl text-main-300">
+    <section id="skills" className="mt-5">
+      <h1 className="text-center text-3xl text-main-300 font-bold">
         My Skills that i gained and honed through out the years
       </h1>
       <div>

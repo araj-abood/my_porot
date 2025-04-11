@@ -1,5 +1,4 @@
 import React, { forwardRef, useRef } from "react";
-import { ColorContext } from "../../store/colorCtx";
 
 const LinkItem = forwardRef(function LinkItem(
   { to, text, handleSelect, colortw, onClick },
@@ -10,6 +9,7 @@ const LinkItem = forwardRef(function LinkItem(
   return (
     <li>
       <a
+        href={to}
         data-color={colortw}
         ref={linkRef}
         onMouseOver={() => {

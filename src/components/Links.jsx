@@ -33,21 +33,21 @@ function Links() {
       <LinkItem
         colortw="bg-red-600"
         handleSelect={handleSelect}
-        to={"#"}
+        to={"#about-me"}
         text={"About me"}
         onClick={() => handleColorChange("red")}
       />
       <LinkItem
         colortw="bg-emerald-600"
         handleSelect={handleSelect}
-        to={"#"}
+        to={"#skills"}
         text={"Skills"}
         onClick={() => handleColorChange("green")}
       />
       <LinkItem
         colortw="bg-cyan-500"
         handleSelect={handleSelect}
-        to={"#"}
+        to={"#projects"}
         text={"Projects"}
         onClick={() => handleColorChange("blue")}
       />
